@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv:TBD-%2340d9b0ff.svg)](https://arxiv.org/abs/) [![Code](https://img.shields.io/badge/Code-GitHub-%2366b3ffff.svg)](https://github.com/ChengshuaiZhao0/DataAlchemy)
 
-This repository contains the official Python implementation of the framework described in the paper**"Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens."**
+This repository contains the official Python implementation of the framework described in the paper **"Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens."**
 
 ## News
 
