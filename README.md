@@ -14,9 +14,11 @@ This repository contains the official Python implementation of the framework des
 
 Chain-of-Thought (CoT) prompting has been shown to improve Large Language Model (LLM) performance on various tasks. With this approach, LLMs appear to produce human-like reasoning steps before providing answers (a.k.a., CoT reasoning), which often leads to the perception that they engage in deliberate inferential processes. However, some initial findings suggest that CoT reasoning may be more superficial than it appears, motivating us to explore further. In this paper, we study CoT reasoning via a data distribution lens and investigate if CoT reasoning reflects a structured inductive bias learned from in-distribution data, allowing the model to conditionally generate reasoning paths that approximate those seen during training. Thus, its effectiveness is fundamentally bounded by the degree of distribution discrepancy between the training data and the test queries. With this lens, we dissect CoT reasoning via three dimensions: **task**, **length**, and **format**. To investigate each dimension, we design **DataAlchemy**, an isolated and controlled environment to train LLMs from scratch and systematically probe them under various distribution conditions. Our results reveal that CoT reasoning is a brittle mirage that vanishes when it is pushed beyond training distributions. This work offers a deeper understanding of *why* and *when* CoT reasoning fails, emphasizing the ongoing challenge of achieving genuine and generalizable reasoning. 
 
-<p align="center">
-  <img src="figure/illustration.png" alt="illustration" width="60%">
-</p>
+<figure style="text-align: center;">
+  <img src="figure/illustration.png" alt="illustration" width="50%">
+  <figcaption><em>Figure 1:</em> The data distribution lens.</figcaption>
+</figure>
+
 
 ## Contribution
 
@@ -28,4 +30,7 @@ Chain-of-Thought (CoT) prompting has been shown to improve Large Language Model 
 
 ⭐ **Real-world implication.** This work reframes the understanding of contemporary LLMs' reasoning capabilities and emphasizes the risk of over-reliance on CoT reasoning as a universal problem-solving paradigm. It underscores the necessity for proper evaluation methods and the development of LLMs that possess authentic and generalizable reasoning capabilities.
 
-<img src="figure/main.png" alt="main" width="100%">
+<figure style="text-align: center;">
+  <img src="figure/main.png" alt="main" width="100%">
+  <figcaption><em>Figure 2:</em> DataAlchemy framework.</figcaption>
+</figure>
