@@ -33,6 +33,7 @@ Chain-of-Thought (CoT) prompting has been shown to improve Large Language Model 
   <img src="figure/main.png" alt="main" width="100%" /><br>
   <em>Figure 2:</em> DataAlchemy framework.
 </p>
+
 ## Citation
 
 If our repo helped you out, we'd love it if you gave us a citation! Thanks for supporting our work!
