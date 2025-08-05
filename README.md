@@ -1,14 +1,13 @@
 # Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv:TBD-%23f2806bff.svg)](https://arxiv.org/abs/) [![Code](https://img.shields.io/badge/Code-GitHub-%238a91faff.svg)](https://github.com/ChengshuaiZhao0/DataAlchemy)
+[![Paper](https://img.shields.io/badge/Paper-arXiv:2508.01191-%23f2806bff.svg)](http://arxiv.org/abs/2508.01191) [![Code](https://img.shields.io/badge/Code-GitHub-%238a91faff.svg)](https://github.com/ChengshuaiZhao0/DataAlchemy)
 
 This repository contains the official Python implementation of the framework described in the paper **"Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens."**
 
 ## News
 
+- **[08/02/2025]** Our paper is available on [arXiv](http://arxiv.org/abs/2508.01191).
 - **[08/01/2025]** GitHub repository created. Code release is coming soon.
-
-
 
 ## Introduction
 
@@ -34,10 +33,18 @@ Chain-of-Thought (CoT) prompting has been shown to improve Large Language Model 
   <img src="figure/main.png" alt="main" width="100%" /><br>
   <em>Figure 2:</em> DataAlchemy framework.
 </p>
+## Citation
 
+If our repo helped you out, we'd love it if you gave us a citation! Thanks for supporting our work!
 
-
-
-
-
-
+```tex
+@misc{zhao2025chainofthoughtreasoningllmsmirage,
+      title={Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens}, 
+      author={Chengshuai Zhao and Zhen Tan and Pingchuan Ma and Dawei Li and Bohan Jiang and Yancheng Wang and Yingzhen Yang and Huan Liu},
+      year={2025},
+      eprint={2508.01191},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2508.01191}, 
+}
+```
