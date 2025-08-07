@@ -39,13 +39,10 @@ Chain-of-Thought (CoT) prompting has been shown to improve Large Language Model 
 If our repo helped you out, we'd love it if you gave us a citation! Thanks for supporting our work!
 
 ```tex
-@misc{zhao2025chainofthoughtreasoningllmsmirage,
-      title={Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens}, 
-      author={Chengshuai Zhao and Zhen Tan and Pingchuan Ma and Dawei Li and Bohan Jiang and Yancheng Wang and Yingzhen Yang and Huan Liu},
-      year={2025},
-      eprint={2508.01191},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2508.01191}, 
+@article{zhao2025chain,
+  title={Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens},
+  author={Zhao, Chengshuai and Tan, Zhen and Ma, Pingchuan and Li, Dawei and Jiang, Bohan and Wang, Yancheng and Yang, Yingzhen and Liu, Huan},
+  journal={arXiv preprint arXiv:2508.01191},
+  year={2025}
 }
 ```
