@@ -6,7 +6,7 @@ This repository contains the official Python implementation of the framework des
 
 ## News
 
-- **[08/07/2025]** Our paper achieves **#1 Paper of the day** on [Hugging Face](https://huggingface.co/papers/2508.01191) 🚀
+- **[08/07/2025]** Our paper achieves **#1 Paper of the day** at [Hugging Face](https://huggingface.co/papers/2508.01191) 🚀
 - **[08/02/2025]** Our paper is available on [arXiv](http://arxiv.org/abs/2508.01191).
 - **[08/01/2025]** GitHub repository created. Code release is coming soon.
 
