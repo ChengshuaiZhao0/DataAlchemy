@@ -1,6 +1,6 @@
 # Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv:2508.01191-%23f2806bff.svg)](http://arxiv.org/abs/2508.01191) [![Code](https://img.shields.io/badge/Code-GitHub-%238a91faff.svg)](http://arxiv.org/abs/2508.01191) [![Daily](https://img.shields.io/badge/Daily/Paper-HuggingFace-%2340D9B0.svg)](https://huggingface.co/papers/2508.01191)
+[![Paper](https://img.shields.io/badge/Paper-arXiv:2508.01191-%23f2806bff.svg)](http://arxiv.org/abs/2508.01191) [![Code](https://img.shields.io/badge/Code-GitHub-%238a91faff.svg)](http://arxiv.org/abs/2508.01191) [![Daily](https://img.shields.io/badge/Daily_Paper-Hugging_Face-%2340D9B0.svg)](https://huggingface.co/papers/2508.01191)
 
 This repository contains the official Python implementation of the framework described in the paper **"Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens."**
 
