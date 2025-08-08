@@ -1,11 +1,12 @@
 # Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv:2508.01191-%23f2806bff.svg)](http://arxiv.org/abs/2508.01191) [![Code](https://img.shields.io/badge/Code-GitHub-%238a91faff.svg)](https://github.com/ChengshuaiZhao0/DataAlchemy)
+[![Paper](https://img.shields.io/badge/Paper-arXiv:2508.01191-%23f2806bff.svg)](http://arxiv.org/abs/2508.01191) [![Code](https://img.shields.io/badge/Code-GitHub-%238a91faff.svg)](http://arxiv.org/abs/2508.01191) [![Code](https://img.shields.io/badge/Daily Paper-Hugging Face-%2340D9B0.svg)](https://huggingface.co/papers/2508.01191)
 
 This repository contains the official Python implementation of the framework described in the paper **"Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens."**
 
 ## News
 
+- **[08/07/2025]** Our paper achieves **#1 Paper of the day** on [Hugging Face](https://huggingface.co/papers/2508.01191) 🚀
 - **[08/02/2025]** Our paper is available on [arXiv](http://arxiv.org/abs/2508.01191).
 - **[08/01/2025]** GitHub repository created. Code release is coming soon.
 
