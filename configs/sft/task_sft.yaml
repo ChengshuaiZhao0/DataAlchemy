@@ -1,0 +1,20 @@
+# Task-SFT example: post-train a pretrained model on one new composition
+# ([F2][F2]) using 1% of the target data, and evaluate on the same split.
+
+_base: ../_base/sft.yaml
+
+dataset:
+  train: data/F2F2.jsonl
+  test:
+    - data/F2F2.jsonl
+  train_ratio: 0.0001
+
+system:
+  experiment: task_sft
+
+checkpoint:
+  pretrained_model_dir: ./saves/task_generalization/model/final
+  tokenizer_dir: ./saves/task_generalization/tokenizer
+  model_dir: ./saves/task_sft/model
+  log_dir: ./logs/task_sft
+  result_dir: ./results/task_sft

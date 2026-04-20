@@ -1,0 +1,26 @@
+# Format-generalization example.
+#
+# Trains on clean single-step F1 and F2, and evaluates on hybrid-noised
+# variants of each at p = 0.10 and p = 0.20. Swap the test files for a
+# different mode ({insert,delete,modify,hybrid}) or noise level to probe
+# other regimes. Noisy files are produced via src.data.noise.generate_noisy_dataset.
+
+_base: ../_base/pretrain.yaml
+
+dataset:
+  train: data/F1.jsonl,data/F2.jsonl
+  test:
+    - data/F1_hybrid_0p10.jsonl,data/F2_hybrid_0p10.jsonl
+    - data/F1_hybrid_0p20.jsonl,data/F2_hybrid_0p20.jsonl
+
+system:
+  experiment: format_generalization
+
+evaluate:
+  split_reasoning: false
+
+checkpoint:
+  tokenizer_dir: ./saves/format_generalization/tokenizer
+  model_dir: ./saves/format_generalization/model
+  log_dir: ./logs/format_generalization
+  result_dir: ./results/format_generalization

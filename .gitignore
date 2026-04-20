@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Envs & package managers
+.venv/
+.uv-cache/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Experiment outputs
+data/*
+!data/.gitkeep
+saves/
+results/
+outputs/
+logs/
+*.log

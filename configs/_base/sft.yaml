@@ -1,0 +1,53 @@
+# Shared defaults for SFT configs. SFT reuses a pretrained tokenizer +
+# model checkpoint, so the model block is minimal (arch/n_positions/
+# attn_implementation only — other hparams come from the checkpoint).
+
+model:
+  arch: GPT          # GPT | Llama
+  n_positions: 256
+  attn_implementation: sdpa   # sdpa | eager | flash_attention_2
+
+tokenizer:
+  num_proc: 8
+
+system:
+  use_cuda: true
+  deterministic: true
+  seed: 42
+
+train:
+  num_epochs: 20000
+  per_device_batch_size: 256
+  gradient_accumulation_steps: 1
+  gradient_checkpointing: false
+  # --- optimizer / scheduler ---
+  lr: 5e-3
+  lr_scheduler_type: cosine
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  bf16: true
+  # --- logging / checkpointing ---
+  save_steps: 1000
+  logging_steps: 200
+  # --- eval-split controls (ignored when validation_ratio: 0) ---
+  validation_ratio: 0
+  per_device_eval_batch_size: 256
+  eval_steps: 200
+  early_stopping_patience: 3
+  early_stopping_threshold: 0.0005
+
+inference:
+  per_device_batch_size: 51200
+  do_sample: false
+  temperature: 1.0
+  top_k: 50
+  top_p: 1.0
+
+evaluate:
+  split_reasoning: true
+  num_workers: 8
+
+dataset:
+  train_ratio: 1.0
+  test_ratio: 1.0

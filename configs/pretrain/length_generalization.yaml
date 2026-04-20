@@ -1,0 +1,23 @@
+# Length-generalization example.
+#
+# Trains at element length l = 4 with the two-step chain [F1][F2], then
+# evaluates on shorter (l = 2) and longer (l = 3) elements to probe length
+# extrapolation. To also vary the number of reasoning steps k, add
+# data/F1.jsonl (k=1) or data/F1F1F1.jsonl (k=3) to `test`.
+
+_base: ../_base/pretrain.yaml
+
+dataset:
+  train: data/F1F2_len4.jsonl
+  test:
+    - data/F1F2_len2.jsonl
+    - data/F1F2_len3.jsonl
+
+system:
+  experiment: length_generalization
+
+checkpoint:
+  tokenizer_dir: ./saves/length_generalization/tokenizer
+  model_dir: ./saves/length_generalization/model
+  log_dir: ./logs/length_generalization
+  result_dir: ./results/length_generalization

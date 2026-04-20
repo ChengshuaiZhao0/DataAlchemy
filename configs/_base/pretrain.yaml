@@ -1,0 +1,59 @@
+# Shared defaults for from-scratch pretraining configs.
+# Experiment yamls under configs/pretrain/ include this file via `_base:`
+# and override only the deltas (dataset paths, checkpoint dirs, experiment
+# tag, and any model/eval knobs that vary per setup).
+
+model:
+  arch: GPT          # GPT | Llama
+  hidden_size: 32
+  n_layer: 4
+  n_head: 4
+  n_positions: 256
+  attn_implementation: sdpa   # sdpa | eager | flash_attention_2
+
+tokenizer:
+  vocab_size: 10000
+  num_proc: 8
+
+system:
+  use_cuda: true
+  deterministic: true
+  seed: 42
+
+train:
+  num_epochs: 10
+  per_device_batch_size: 1024
+  gradient_accumulation_steps: 1
+  gradient_checkpointing: false
+  # --- optimizer / scheduler ---
+  lr: 3e-3
+  lr_scheduler_type: cosine
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  bf16: true
+  # --- logging / checkpointing ---
+  save_steps: 1000
+  logging_steps: 200
+  # --- eval-split controls (ignored when validation_ratio: 0) ---
+  validation_ratio: 0
+  per_device_eval_batch_size: 1024
+  eval_steps: 200
+  early_stopping_patience: 3
+  early_stopping_threshold: 0.0005
+
+inference:
+  per_device_batch_size: 51200
+  # --- decoding (sampling knobs only honored when do_sample: true) ---
+  do_sample: false
+  temperature: 1.0
+  top_k: 50
+  top_p: 1.0
+
+evaluate:
+  split_reasoning: true
+  num_workers: 8        # 0 = auto (min(8, cpu_count())); 1 = single-process
+
+dataset:
+  train_ratio: 1.0
+  test_ratio: 1.0
