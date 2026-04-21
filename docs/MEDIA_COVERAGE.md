@@ -1,3 +1,5 @@
+[← Back to main README](../README.md)
+
 # Media Coverage
 
 This page collects external media, newsletters, blogs, podcasts, social/video
@@ -13,7 +15,7 @@ URLs on the source platform when available.
 
 Each entry follows the same schema: *[Title](URL)*, **Platform**, by Author (Date), followed by a one-sentence insight on the second line. Author or date is dropped when not publicly available.
 
-## Major Media & News
+## 📰 Tech Media & News
 
 - *[What if A.I. Doesn't Get Much Better Than This?](https://www.newyorker.com/culture/open-questions/what-if-ai-doesnt-get-much-better-than-this)*, **The New Yorker**, by Cal Newport (Aug 18, 2025)  
   Situates the paper alongside broader evidence that post-GPT-4 scaling has produced diminishing returns, questioning whether current reasoning is genuine.
@@ -42,7 +44,9 @@ Each entry follows the same schema: *[Title](URL)*, **Platform**, by Author (Dat
 - *[Study finds chain-of-thought reasoning in LLMs is a brittle mirage](https://dig.watch/updates/study-finds-chain-of-thought-reasoning-in-llms-is-a-brittle-mirage)*, **Digital Watch Observatory** (Aug 21, 2025)  
   Policy-angled summary cautioning against deploying CoT-based systems in "high-stakes domains" where flawed logic could cause real harm.
 
-## Newsletters & Substacks
+---
+
+## 📨 Newsletters & Substacks
 
 - *[A trillion dollars is a terrible thing to waste](https://garymarcus.substack.com/p/a-trillion-dollars-is-a-terrible)*, **Marcus on AI**, by Gary Marcus (Nov 27, 2025)  
   Cites the paper as having "put a further nail in the LLM reasoning and generalization coffin," marshalling it alongside other evidence of the scaling plateau.
@@ -59,7 +63,9 @@ Each entry follows the same schema: *[Title](URL)*, **Platform**, by Author (Dat
 - *[AI 'chain of thought' is still just a 'brittle mirage'](https://pivot-to-ai.com/2025/08/15/ai-chain-of-thought-is-still-just-a-brittle-mirage/)*, **Pivot to AI** (Aug 15, 2025)  
   Skeptical-commentary take highlighting how the paper reinforces doubts about the reliability of chain-of-thought in production systems.
 
-## Podcasts
+---
+
+## 🎙️ Podcasts
 
 - *[Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens](https://creators.spotify.com/pod/profile/arxiv-papers/episodes/Is-Chain-of-Thought-Reasoning-of-LLMs-a-Mirage--A-Data-Distribution-Lens-e36f98p)*, **Arxiv Papers (Spotify)**, by Igor Melnyk (Aug 5, 2025)  
   Paper walkthrough episode summarising the three axes of distribution shift the study probes.
@@ -85,12 +91,16 @@ Each entry follows the same schema: *[Title](URL)*, **Platform**, by Author (Dat
 - *[Is Chain-of-Thought Reasoning a Mirage?](https://www.ivoox.com/is-chain-of-thought-reasoning-a-mirage-audios-mp3_rf_155321933_1.html)*, **iVoox (Podcast mirror)**, by Enoch H. Kang (Aug 12, 2025)  
   Public mirror of the Best AI papers explained episode, extending availability beyond Spotify.
 
-## Independent Blogs & Commentary
+---
+
+## ✍️ Independent Blogs & Commentary
 
 - *[Fake Thinking: AI Agent's Chain-of-Thought "Reasoning" Is More Pattern Than Logic But May Be Still Useful](https://www.lawdroidmanifesto.com/p/fake-thinking-ai-agents-chain-of)*, **LawDroid Manifesto**, by Tom Martin (Aug 22, 2025)  
   Legal-industry perspective: accepts the pattern-matching framing but argues CoT remains useful for legal tasks when lawyers verify outputs.
 
-## Social & Video Coverage
+---
+
+## 📱 Social & Video Coverage
 
 ### LinkedIn
 
@@ -134,7 +144,9 @@ Each entry follows the same schema: *[Title](URL)*, **Platform**, by Author (Dat
 - *[Paper share](https://www.facebook.com/MontrealAI/posts/is-chain-of-thought-reasoning-of-llms-a-mirage-a-data-distribution-lenszhao-et-a/1078822847761433/)*, **Facebook**, by Montreal.AI  
   Re-shares the paper to Montreal.AI's Facebook community page.
 
-## Community Discussion
+---
+
+## 💬 Community Discussion
 
 - *[Goedecke-critique thread](https://news.ycombinator.com/item?id=44900340)*, **Hacker News**, by ingve (Aug 2025)  
   213 points, 179 comments; philosophical debate over what counts as "real" reasoning in LLMs.
@@ -148,12 +160,16 @@ Each entry follows the same schema: *[Title](URL)*, **Platform**, by Author (Dat
 - *[LLMs' 'simulated reasoning' abilities are a 'brittle mirage,' researchers find](https://beehaw.org/post/21574712)*, **Beehaw**  
   Federated discussion thread around the Ars Technica coverage, extending the paper's reach into the wider open-social web.
 
-## Academic Talks & Seminars
+---
+
+## 🎓 Academic Talks & Seminars
 
 - *[Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens](https://ccsb.pvamu.edu/blog/talks/CCSB-Seminar-Zhao-Is-COT-Reasoning-Mirage/)*, **Prairie View A&M (CCSB Seminar Series)**, by Chengshuai Zhao (Sep 24, 2025)  
   Invited Zoom talk by the paper's lead author walking the CCSB audience through the data-distribution lens and DataAlchemy results.
 
-## International Coverage
+---
+
+## 🌍 International Coverage
 
 - *[なぜ推論AIは深く考えているフリをするのか。CoTは真の思考か、それともパターン暗記か（生成AIクローズアップ）](https://www.techno-edge.net/article/2025/08/14/4528.html)*, **TechnoEdge (JP)**, by Yamashita (Seamless) (Aug 14, 2025)  
   Japanese outlet summary that foregrounds the paper's leap-year example and presents DataAlchemy as a controlled testbed for exposing brittle CoT behavior.
