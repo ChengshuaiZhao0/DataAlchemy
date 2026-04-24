@@ -1,12 +1,13 @@
 # Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv:2508.01191-%23f2806bff.svg)](http://arxiv.org/abs/2508.01191) [![Code](https://img.shields.io/badge/Code-GitHub-%238a91faff.svg)](http://arxiv.org/abs/2508.01191) [![Daily](https://img.shields.io/badge/Daily_Paper-Hugging_Face-%2340D9B0.svg)](https://huggingface.co/papers/2508.01191)
+[![Paper](https://img.shields.io/badge/Paper-arXiv:2508.01191-%238A91FA.svg)](http://arxiv.org/abs/2508.01191) [![Code](https://img.shields.io/badge/Code-GitHub-%23F2806B.svg)](http://arxiv.org/abs/2508.01191) [![Daily](https://img.shields.io/badge/Daily_Paper-Hugging_Face-%2340D9B0.svg)](https://huggingface.co/papers/2508.01191) [![Dataset](https://img.shields.io/badge/Dataset-Hugging_Face-%23FFB982.svg)](https://huggingface.co/datasets/chengshuaizhao/DataAlchemy)
 
 This repository contains the official Python implementation of the framework described in the paper **"Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens."**
 
 ## 📰 News
 
-- **[04/18/2026]** Code release! **DataAlchemy** environment is now available in this repository.
+- **[04/24/2026]** Data release! DataAlchemy symbolic dataset is now available on [Hugging Face](https://huggingface.co/datasets/chengshuaizhao/DataAlchemy). 🤗
+- **[04/18/2026]** Code release! DataAlchemy environment implementation is now available in this repository.
 - **[04/07/2026]** Our paper is accepted to **ACL 2026** (The 64th Annual Meeting of the Association for Computational Linguistics), San Diego, CA, USA, July 2-7, 2026. 🎉
 - **[11/26/2025]** Our paper is accepted to the **NeurIPS 2025 Workshop on Foundations of Reasoning in Language Models (FoRLM)**, San Diego, CA, USA, Dec 2-7, 2025. Check the paper on [OpenReview](https://openreview.net/pdf?id=o2AoLPIjle).
 - **[09/01/2025]** Our paper has been covered by **The New Yorker**, **SF Examiner**, **VentureBeat**, **Ars Technica**, **The Decoder**, **Slashdot**, **Unite.AI**, **WebProNews**, **Digital Watch Observatory**, and many other media outlets, blogs, newsletters, podcasts, and social platforms — see the full [media coverage list](docs/MEDIA_COVERAGE.md).

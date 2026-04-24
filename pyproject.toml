@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "dataalchemy"
 version = "0.1.0"
-description = "DataAlchemy: a data-distribution lens on Chain-of-Thought reasoning."
+description = "DataAlchemy: A controllable laboratory for the science of Chain-of-Thought reasoning"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
